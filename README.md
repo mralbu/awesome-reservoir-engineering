@@ -41,6 +41,7 @@ Awesome software projects sub-categorized by focus.
 - [DuMu<sup>x</sup>](https://dumux.org) - ![C++](media/icon/cplusplus.png) Simulator for flow and transport processes in porous media
 - [Fesapi](https://github.com/F2I-Consulting/fesapi) - ![C++](media/icon/cplusplus.png) ![C++](media/icon/java.png) ![C++](media/icon/csharp.png) Reading and writing [RESQML2](https://www.energistics.org/portfolio/resqml-data-standards/) files
 - [PyGRDECL](https://github.com/BinWang0213/PyGRDECL) - ![Python](media/icon/python.png) ![Paraview](media/icon/paraview.png) Visualize Eclipse/Petrel outputs Grid File (GRDECL) using Paraview(VTK)
+- [TPFA-ResSim](https://github.com/patnr/TPFA-ResSim) - ![Python](media/icon/python.png) ![Matlab](media/icon/matlab.png) Toy, 2D black-oil petroleum reservoir simulator
 ### History Matching and Uncertainty Analysis
 - [ert](https://github.com/equinor/ert) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Tool for history matching and updating using Ensemble Kalman Filters and Ensemble Smoothers.
 - [pyhum](https://github.com/juliohm/HUM) - ![Python](media/icon/python.png) Probabilistic Framework for Reservoir Characterization and Real Time Updating
