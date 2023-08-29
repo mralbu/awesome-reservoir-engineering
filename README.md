@@ -58,6 +58,7 @@ Awesome software projects sub-categorized by focus.
 - [drd](https://github.com/LukasMosser/digital_rocks_data) - ![Python](media/icon/python.png) Download and load digital rocks datasets
 - [Core2Relperm](https://github.com/sede-open/Core2Relperm) - ![Shell](media/icon/shell.png) ![Python](media/icon/python.png) Core2Relperm project for inverse modelling of core flooding experiments
 - [pydmd](https://github.com/cspurin/DMD-flow-in-porous-media) - ![Python](media/icon/python.png) Dynamic Mode Decomposition for Analyzing Dynamics in Multi-phase Flow in Porous Media
+- [RockIR](https://github.com/sede-open/RockIR) - ![Shell](media/icon/shell.png) ![Python](media/icon/python.png) Rock Image Retrieval for rock samples
 ### PVT Analysis
 - [neqsim](https://equinor.github.io/neqsimhome/) - ![Equinor](media/icon/equinor.png) ![Java](media/icon/java.png) ![Matlab](media/icon/matlab.png) ![Python](media/icon/python.png) Estimation of phase behaviour and properties for oil and gas fluids
 - [PREOS](https://github.com/CorySimon/PREOS) - ![Python](media/icon/python.png) Computes the fugacity coefficient, compressibility, and density of a gas at a particular temperature and pressure using the Peng-Robinson EoS
