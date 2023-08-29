@@ -31,8 +31,8 @@ Open reservoir engineering is even more awesome, so we made a list. This list is
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
-
-## Software
+ 
+## Software 
 Awesome software projects sub-categorized by focus.
 ### Reservoir Simulation
 - [libres](https://github.com/equinor/libres) - ![Python](media/icon/python.png) Tool for managing an ensemble of reservoir models
@@ -56,6 +56,8 @@ Awesome software projects sub-categorized by focus.
 - [porepy](https://github.com/pmgbergen/porepy) - ![Python](media/icon/python.png) Simulation Tool for Fractured and Deformable Porous Media
 - [OpenPNM](https://github.com/PMEAL/OpenPNM) - ![Python](media/icon/python.png) Pore network modeling of porous media
 - [drd](https://github.com/LukasMosser/digital_rocks_data) - ![Python](media/icon/python.png) Download and load digital rocks datasets
+- [Core2Relperm](https://github.com/sede-open/Core2Relperm) - ![Python](media/icon/python.png) Core2Relperm project for inverse modelling of core flooding experiments
+- [pydmd](https://github.com/cspurin/DMD-flow-in-porous-media) - ![Python](media/icon/python.png) Dynamic Mode Decomposition for Analyzing Dynamics in Multi-phase Flow in Porous Media
 ### PVT Analysis
 - [neqsim](https://equinor.github.io/neqsimhome/) - ![Equinor](media/icon/equinor.png) ![Java](media/icon/java.png) ![Matlab](media/icon/matlab.png) ![Python](media/icon/python.png) Estimation of phase behaviour and properties for oil and gas fluids
 - [PREOS](https://github.com/CorySimon/PREOS) - ![Python](media/icon/python.png) Computes the fugacity coefficient, compressibility, and density of a gas at a particular temperature and pressure using the Peng-Robinson EoS
