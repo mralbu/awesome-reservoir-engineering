@@ -19,6 +19,7 @@ Open reservoir engineering is even more awesome, so we made a list. This list is
     - [Geology and Geophysics](#geology-and-geophysics)
     - [Geostatistics](#geostatistics)
     - [Geomechanics](#geomechanics)
+    - [Data Formats and I/O](#data-formats-and-io)
   - [Data Repositories](#data-repositories)
   - [Tutorials and Cheat Sheets](#tutorials-and-cheat-sheets)
   - [Miscellaneous](#miscellaneous)
@@ -35,23 +36,18 @@ Open reservoir engineering is even more awesome, so we made a list. This list is
 ## Software
 Awesome software projects sub-categorized by focus.
 ### Reservoir Simulation
-- [resdata](https://github.com/equinor/resdata) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Reading and writing Eclipse reservoir simulator files (formerly libecl)
 - [MRST](https://www.sintef.no/projectweb/mrst) - ![matlab](media/icon/matlab.png) Rapid prototyping and demonstration of new simulation methods in reservoir modelling and simulation
 - [DuMu<sup>x</sup>](https://dumux.org) - ![C++](media/icon/cplusplus.png) Simulator for flow and transport processes in porous media
-- [Fesapi](https://github.com/F2I-Consulting/fesapi) - ![C++](media/icon/cplusplus.png) ![Java](media/icon/java.png) ![C#](media/icon/csharp.png) Reading and writing [RESQML2](https://www.energistics.org/resqml-data-standards) files
-- [PyGRDECL](https://github.com/BinWang0213/PyGRDECL) - ![Python](media/icon/python.png) ![Paraview](media/icon/paraview.png) Visualize Eclipse/Petrel outputs Grid File (GRDECL) using Paraview(VTK)
 - [MiniRes](https://github.com/patnr/MiniRes) - ![Python](media/icon/python.png) ![Matlab](media/icon/matlab.png) Toy, 2D black-oil petroleum reservoir simulator
+- [porepy](https://github.com/pmgbergen/porepy) - ![Python](media/icon/python.png) Simulation Tool for Fractured and Deformable Porous Media
 ### History Matching and Uncertainty Analysis
 - [ert](https://github.com/equinor/ert) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Tool for history matching and updating using Ensemble Kalman Filters and Ensemble Smoothers
 - [pyhum](https://github.com/juliohm/HUM) - ![Python](media/icon/python.png) Probabilistic Framework for Reservoir Characterization and Real Time Updating
 ### Petrophysics
 - [pyscal](https://github.com/equinor/pyscal) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Python module for relative permeability/SCAL support in reservoir simulation
-- [lasio](https://github.com/kinverarity1/lasio/) - ![Python](media/icon/python.png) Reading and writing well data using Log ASCII Standard (LAS) files
 - [Welly](https://github.com/agilescientific/welly) - ![Python](media/icon/python.png) Analyzing and processing well log data
 - [Striplog](https://github.com/agilescientific/striplog) - ![Python](media/icon/python.png) Display lithological and stratigraphic logs for wells and outcrop
-- [dlisio](https://github.com/equinor/dlisio) - ![Equinor](media/icon/equinor.png) ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) dlisio is an LGPL licensed library for working with well logs in Digital Log Interchange Standard (DLIS V1)
 - [porespy](https://github.com/PMEAL/porespy) - ![Python](media/icon/python.png) A set of tools for characterizing and analyzing 3D images of porous materials
-- [porepy](https://github.com/pmgbergen/porepy) - ![Python](media/icon/python.png) Simulation Tool for Fractured and Deformable Porous Media
 - [OpenPNM](https://github.com/PMEAL/OpenPNM) - ![Python](media/icon/python.png) Pore network modeling of porous media
 - [drd](https://github.com/LukasMosser/digital_rocks_data) - ![Python](media/icon/python.png) Download and load digital rocks datasets
 - [Core2Relperm](https://github.com/sede-open/Core2Relperm) - ![Shell](media/icon/shell.png) ![Python](media/icon/python.png) Core2Relperm project for inverse modelling of core flooding experiments
@@ -71,10 +67,9 @@ Awesome software projects sub-categorized by focus.
 - [pyGeoPressure](https://pygeopressure.readthedocs.io/en/latest/) - ![Python](media/icon/python.png) Pore pressure prediction using well log data and seismic velocity data
 - [mplStereonet](https://github.com/joferkington/mplstereonet) - ![Python](media/icon/python.png) Stereonets on python based on Matplotlib
 - [apsg](https://github.com/ondrolexa/apsg) - ![Python](media/icon/python.png) Advanced structural geology analysis and visualisation based on Matplotlib
-- [segyio](https://github.com/equinor/segyio) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Fast Python library for SEGY files
 ### Geostatistics
 - [pyKriging](https://github.com/capaulson/pyKriging) - ![Python](media/icon/python.png) N-dimensional kriging
-- [SGeMS](http://sgems.sourceforge.net/) - ![CUDA](media/icon/cuda.png) Stanford geostatistical modelling software
+- [SGeMS](http://sgems.sourceforge.net/) - ![C++](media/icon/cplusplus.png) Stanford geostatistical modelling software
 - [HPGL](https://github.com/hpgl/hpgl) - ![Python](media/icon/python.png) High performance geostatistics library
 - [gstat](https://github.com/r-spatial/gstat/) - ![R](media/icon/r.png) Geostatistical modelling, prediction and simulation
 - [PyGSLIB](https://opengeostat.github.io/pygslib/index.html) - ![Python](media/icon/python.png) Mineral resource estimations
@@ -83,6 +78,14 @@ Awesome software projects sub-categorized by focus.
 - [GeoStat-Framework](https://github.com/GeoStat-Framework) - ![Python](media/icon/python.png) Framework for geostatistical simulations
 ### Geomechanics
 - [Geomechanics.jl](https://github.com/scuervo91/Geomechanics.jl) - ![julia](media/icon/julia.png) Geomechanics analysis focused on the Unconventional Resources evaluation
+### Data Formats and I/O
+- [resdata](https://github.com/equinor/resdata) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Reading and writing Eclipse reservoir simulator files (formerly libecl)
+- [Fesapi](https://github.com/F2I-Consulting/fesapi) - ![C++](media/icon/cplusplus.png) ![Java](media/icon/java.png) ![C#](media/icon/csharp.png) Reading and writing [RESQML2](https://www.energistics.org/resqml-data-standards) files
+- [PyGRDECL](https://github.com/BinWang0213/PyGRDECL) - ![Python](media/icon/python.png) ![Paraview](media/icon/paraview.png) Visualize Eclipse/Petrel outputs Grid File (GRDECL) using Paraview(VTK)
+- [lasio](https://github.com/kinverarity1/lasio/) - ![Python](media/icon/python.png) Reading and writing well data using Log ASCII Standard (LAS) files
+- [dlisio](https://github.com/equinor/dlisio) - ![Equinor](media/icon/equinor.png) ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) dlisio is an LGPL licensed library for working with well logs in Digital Log Interchange Standard (DLIS V1)
+- [segyio](https://github.com/equinor/segyio) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Fast Python library for SEGY files
+- [gio](https://github.com/softwareunderground/gio) - ![Python](media/icon/python.png) Geoscience file input and output functions for less-than standard data formats
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
@@ -111,7 +114,6 @@ Awesome software projects sub-categorized by focus.
 ## Miscellaneous
 
 - [Software Underground Slack](https://softwareunderground.org/) - ![slack](media/icon/slack.png) Community connecting geocomputing researchers
-- [gio](https://github.com/softwareunderground/gio) - ![Python](media/icon/python.png) Geoscience file input and output functions for less-than standard data formats
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
