@@ -1,7 +1,7 @@
 # Awesome Reservoir Engineering
 > Reservoir Engineering is [awesome](awesome.md).
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![License](https://img.shields.io/github/license/softwareunderground/awesome-open-geoscience.svg)](LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License](https://img.shields.io/github/license/mralbu/awesome-reservoir-engineering.svg)](LICENSE)
 
 Open reservoir engineering is even more awesome, so we made a list. This list is curated from repositories that make our lives as reservoir engineers, hackers and data wranglers easier or just more awesome. In accordance with the awesome manifesto, we add awesome repositories. We are open to [contributions](contributing.md) of course, this is a community effort after all.
 
