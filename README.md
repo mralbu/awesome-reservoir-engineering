@@ -40,6 +40,11 @@ Awesome software projects sub-categorized by focus.
 - [DuMu<sup>x</sup>](https://dumux.org) - ![C++](media/icon/cplusplus.png) Simulator for flow and transport processes in porous media
 - [MiniRes](https://github.com/patnr/MiniRes) - ![Python](media/icon/python.png) ![Matlab](media/icon/matlab.png) Toy, 2D black-oil petroleum reservoir simulator
 - [porepy](https://github.com/pmgbergen/porepy) - ![Python](media/icon/python.png) Simulation Tool for Fractured and Deformable Porous Media
+- [OPM Flow](https://github.com/OPM/opm-simulators) - ![C++](media/icon/cplusplus.png) Fully implicit black-oil reservoir simulator from the Open Porous Media initiative, reads Eclipse-format input
+- [open-DARTS](https://gitlab.com/open-darts/open-darts) - ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) Delft Advanced Research Terra Simulator for flow and transport in reservoirs, geothermal and CO2 storage
+- [JutulDarcy.jl](https://github.com/sintefmath/JutulDarcy.jl) - ![Julia](media/icon/julia.png) Differentiable multiphase, multicomponent reservoir simulator in Julia
+- [GEOS](https://github.com/GEOS-DEV/GEOS) - ![C++](media/icon/cplusplus.png) Multiphysics simulation framework for subsurface flow, geomechanics and CO2 storage
+- [ResInsight](https://github.com/OPM/ResInsight) - ![C++](media/icon/cplusplus.png) 3D viewer and post-processing of reservoir models and simulation results
 ### History Matching and Uncertainty Analysis
 - [ert](https://github.com/equinor/ert) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Tool for history matching and updating using Ensemble Kalman Filters and Ensemble Smoothers
 - [pyhum](https://github.com/juliohm/HUM) - ![Python](media/icon/python.png) Probabilistic Framework for Reservoir Characterization and Real Time Updating
@@ -86,6 +91,8 @@ Awesome software projects sub-categorized by focus.
 - [dlisio](https://github.com/equinor/dlisio) - ![Equinor](media/icon/equinor.png) ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) dlisio is an LGPL licensed library for working with well logs in Digital Log Interchange Standard (DLIS V1)
 - [segyio](https://github.com/equinor/segyio) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Fast Python library for SEGY files
 - [gio](https://github.com/softwareunderground/gio) - ![Python](media/icon/python.png) Geoscience file input and output functions for less-than standard data formats
+- [xtgeo](https://github.com/equinor/xtgeo) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Subsurface surfaces, cubes, wells, grids and points with import/export for common formats
+- [res2df](https://github.com/equinor/res2df) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Pandas DataFrame access to Eclipse input and output files
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
@@ -96,6 +103,9 @@ Awesome software projects sub-categorized by focus.
 - [Unisim](https://www.unisim.cepetro.unicamp.br/benchmarks/br/) - CMG and Eclipse reservoir simulation datasets
 - [Athabasca Oil Sands Well Dataset McMurray/Wabiskaw](https://ags.aer.ca/publication/spe-006) - Well logs and stratigraphic picks for 2193 wells, including 750 with lithofacies, from Alberta, Canada
 - [Digital Porous Media Portal](https://digitalporousmedia.org/) - Data portal (formerly Digital Rocks Portal) for fast storage and retrieval, sharing, organization and analysis of images of varied porous micro-structures
+- [OPM Data](https://github.com/OPM/opm-data) - Norne field model and SPE benchmark decks (SPE1, 3, 5, 9, 10) in Eclipse format
+- [SPE Comparative Solution Projects](https://www.spe.org/en/csp/) - Benchmark problems and datasets for reservoir simulation, including SPE10
+- [Egg Model](https://data.4tu.nl/articles/dataset/The_Egg_Model_-_data_files/12707642) - Ensemble of 101 synthetic channelized reservoir models for waterflooding optimization and history matching studies
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
