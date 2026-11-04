@@ -20,6 +20,10 @@ Open reservoir engineering is even more awesome, so we made a list. This list is
     - [Geostatistics](#geostatistics)
     - [Geomechanics](#geomechanics)
     - [Data Formats and I/O](#data-formats-and-io)
+    - [Production Engineering and Well Performance](#production-engineering-and-well-performance)
+    - [CO2 Storage and Geothermal](#co2-storage-and-geothermal)
+    - [Machine Learning and Surrogate Models](#machine-learning-and-surrogate-models)
+    - [Visualization and Workflows](#visualization-and-workflows)
   - [Data Repositories](#data-repositories)
   - [Tutorials and Cheat Sheets](#tutorials-and-cheat-sheets)
   - [Miscellaneous](#miscellaneous)
@@ -45,8 +49,13 @@ Awesome software projects sub-categorized by focus.
 - [JutulDarcy.jl](https://github.com/sintefmath/JutulDarcy.jl) - ![Julia](media/icon/julia.png) Differentiable multiphase, multicomponent reservoir simulator in Julia
 - [GEOS](https://github.com/GEOS-DEV/GEOS) - ![C++](media/icon/cplusplus.png) Multiphysics simulation framework for subsurface flow, geomechanics and CO2 storage
 - [ResInsight](https://github.com/OPM/ResInsight) - ![C++](media/icon/cplusplus.png) 3D viewer and post-processing of reservoir models and simulation results
+- [MOOSE](https://github.com/idaholab/moose) - ![C++](media/icon/cplusplus.png) Multiphysics finite-element framework whose porous flow module covers multiphase, thermal and geomechanical reservoir problems
+- [PFLOTRAN](https://www.pflotran.org/) - Massively parallel Fortran simulator for subsurface flow and reactive transport
+- [GeoChemFoam](https://github.com/GeoChemFoam/GeoChemFoam) - ![C++](media/icon/cplusplus.png) OpenFOAM-based pore-scale simulator for multiphase reactive flow and transport
+- [dfnWorks](https://github.com/lanl/dfnWorks) - ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) Generation of three-dimensional discrete fracture networks and simulation of flow and transport through them
 ### History Matching and Uncertainty Analysis
-- [ert](https://github.com/equinor/ert) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Tool for history matching and updating using Ensemble Kalman Filters and Ensemble Smoothers
+- [ert](https://github.com/equinor/ert) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Tool for history matching and updating using Ensemble Kalman Filters and Ensemble Smoothers, with Everest for ensemble-based well planning and production optimization (`pip install ert[everest]`)
+- [iterative_ensemble_smoother](https://github.com/equinor/iterative_ensemble_smoother) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Standalone ES-MDA and subspace iterative ensemble smoother (SIES) algorithms for data assimilation
 - [pyhum](https://github.com/juliohm/HUM) - ![Python](media/icon/python.png) Probabilistic Framework for Reservoir Characterization and Real Time Updating
 ### Petrophysics
 - [pyscal](https://github.com/equinor/pyscal) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Python module for relative permeability/SCAL support in reservoir simulation
@@ -93,6 +102,29 @@ Awesome software projects sub-categorized by focus.
 - [gio](https://github.com/softwareunderground/gio) - ![Python](media/icon/python.png) Geoscience file input and output functions for less-than standard data formats
 - [xtgeo](https://github.com/equinor/xtgeo) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Subsurface surfaces, cubes, wells, grids and points with import/export for common formats
 - [res2df](https://github.com/equinor/res2df) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Pandas DataFrame access to Eclipse input and output files
+- [GeoEnergyIO.jl](https://github.com/sintefmath/GeoEnergyIO.jl) - ![Julia](media/icon/julia.png) Parsers and processing for Eclipse-format input decks and other geoenergy data files
+- [pycopm](https://github.com/cssr-tools/pycopm) - ![Python](media/icon/python.png) Creation of OPM Flow models from existing input decks with grid refinement, coarsening and submodel extraction
+- [plopm](https://github.com/cssr-tools/plopm) - ![Python](media/icon/python.png) Quick generation of PNGs, GIFs and VTKs from OPM Flow type models
+### Production Engineering and Well Performance
+- [petbox-dca](https://github.com/petbox-dev/dca) - ![Python](media/icon/python.png) Decline curve models including Modified and Transient Hyperbolic, Duong and Power-Law Exponential, plus secondary-phase GOR/CGR and WOR/WGR functions
+- [pyResToolbox](https://github.com/mwburgoyne/pyResToolbox) - ![Python](media/icon/python.png) Reservoir engineering utilities for oil and gas PVT, black-oil table generation, material balance, IPR and VLP
+- [pyreservoir](https://github.com/yohanesnuwara/pyreservoir) - ![Python](media/icon/python.png) Reservoir engineering calculations including well test analysis, material balance and decline curves (CC BY-NC-ND license)
+### CO2 Storage and Geothermal
+- [pyopmspe11](https://github.com/OPM/pyopmspe11) - ![Python](media/icon/python.png) Reproducible OPM Flow setups for the SPE11 CO2 storage comparative solution project
+- [pyopmnearwell](https://github.com/cssr-tools/pyopmnearwell) - ![Python](media/icon/python.png) Near-well dynamics simulation using OPM Flow
+- [expreccs](https://github.com/cssr-tools/expreccs) - ![Python](media/icon/python.png) Coupled regional and site reservoir simulation for CO2 storage using OPM Flow
+- [Fimbul.jl](https://github.com/sintefmath/Fimbul.jl) - ![Julia](media/icon/julia.png) Geothermal reservoir and thermal energy storage simulation built on JutulDarcy.jl
+- [Waiwera](https://github.com/waiwera/waiwera) - Parallel open-source geothermal flow simulator written in Fortran
+- [GEOPHIRES-X](https://github.com/NatLabRockies/GEOPHIRES-X) - ![Python](media/icon/python.png) NREL's geothermal techno-economic simulator
+### Machine Learning and Surrogate Models
+- [U-FNO](https://github.com/gegewen/ufno) - ![Python](media/icon/python.png) Enhanced Fourier neural operator for fast multiphase flow prediction in CO2 storage
+- [PhysicsNeMo](https://github.com/NVIDIA/physicsnemo) - ![Python](media/icon/python.png) NVIDIA's physics-ML framework (formerly Modulus) for neural operators and physics-informed surrogate models
+### Visualization and Workflows
+- [webviz](https://github.com/equinor/webviz) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Visualization of ensembles of subsurface models including seismic, reservoir grids and wells
+- [webviz-subsurface](https://github.com/equinor/webviz-subsurface) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Webviz-config plugins for subsurface data
+- [fmu-tools](https://github.com/equinor/fmu-tools) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Pre- and post-processing tools for Fast Model Update (FMU) workflows
+- [subscript](https://github.com/equinor/subscript) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Collection of subsurface reservoir modelling scripts
+- [PyVista](https://github.com/pyvista/pyvista) - ![Python](media/icon/python.png) 3D visualization and mesh analysis based on VTK
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
@@ -106,6 +138,8 @@ Awesome software projects sub-categorized by focus.
 - [OPM Data](https://github.com/OPM/opm-data) - Norne field model and SPE benchmark decks (SPE1, 3, 5, 9, 10) in Eclipse format
 - [SPE Comparative Solution Projects](https://www.spe.org/en/csp/) - Benchmark problems and datasets for reservoir simulation, including SPE10
 - [Egg Model](https://data.4tu.nl/articles/dataset/The_Egg_Model_-_data_files/12707642) - Ensemble of 101 synthetic channelized reservoir models for waterflooding optimization and history matching studies
+- [SPE11 Results](https://doi.org/10.18419/DARUS-4750) - Submitted results from the 11th SPE Comparative Solution Project on geological CO2 storage
+- [Pore-Scale CO2-Water Benchmark](https://arxiv.org/abs/2503.17592) - 624 heterogeneous 2D pore-scale CO2 injection simulations for machine learning benchmarking
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
@@ -117,6 +151,8 @@ Awesome software projects sub-categorized by focus.
 - [Geophysics Cheat Sheet](https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d70e4b0d158ed9603f5/1350658645407/Cheatsheet_geophysics.pdf) - Cheat Sheet for Geophysics
 - [Rock Physics Cheat Sheet](https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d6fe4b0d158ed960042/1374593568367/Cheatsheet_Rock_Physics.pdf) -  Cheat Sheet for Rock Physics
 - [History Matching tutorial](https://github.com/patnr/HistoryMatching) - ![Python](media/icon/python.png) Interactive Jupyter tutorial on ensemble history matching; runs in the cloud with no installation
+- [Python Numerical Demos](https://github.com/GeostatsGuy/PythonNumericalDemos) - ![Python](media/icon/python.png) Well-documented Python demonstrations for spatial data analytics, geostatistics and machine learning
+- [Data Science Interactive Python](https://github.com/GeostatsGuy/DataScienceInteractivePython) - ![Python](media/icon/python.png) Interactive Python dashboards for learning data science and geostatistics
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
