@@ -29,17 +29,16 @@ on the different ways you can update your PR so that we can merge it.
 ## Automation
 
 We have an automatic link checker in place to help us detect broken links.
-Your pull request will be checked by our bot that is running on TravisCI.
+Your pull request will be checked by a GitHub Actions workflow that runs
+[lychee](https://github.com/lycheeverse/lychee) on the README.
 If everything is OK (all checks at the bottom of the PR page are green), there's nothing
 to worry about.
 It may however fail for the following reasons:
 
-* Duplicate entry: Your link already exists in the file. In this case, please close your
-  PR or let us know if there's a mistake.
-* Redirection of link: Your link redirects somewhere else. In  this case, please use the
-  final link after redirection.
+* Broken link: The URL returns an error. Please check it and use a working link.
+* Timeout: The site was slow to respond. Re-run the check, or let us know if it keeps failing.
 
-Clicking on the failing build (a red x) will take you to the TravisCI website.
+Clicking on the failing check (a red x) will take you to the GitHub Actions log.
 Look at the log to see what went wrong and what needs fixing.
 If none of this makes sense to you, let us know and we'll come in and guide you along to
 make the contribution a success.

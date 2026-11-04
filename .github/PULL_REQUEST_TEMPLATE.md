@@ -27,7 +27,7 @@ Checklist for new projects:
 - [ ] Installation instructions present
 - [ ] Documentation looks great
 - [ ] Examples or Tutorials to follow
-- [ ] Tests and Travis CI running
+- [ ] Tests and CI running
 
 <!-- For Datasets, Cheatsheets and Publications -->
 - [ ] Easily Accessible

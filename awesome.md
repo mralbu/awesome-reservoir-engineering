@@ -141,7 +141,7 @@ Awesome projects make sure their code is working, ideally by automatic tests wit
 Tests can also be non-applicable for certain projects and are sometimes really hard to implement, if you're not sure whether the tests are acceptable, just let us know in the pull request and the maintainers will figure it out with you.
 
     Uber-Awesome: Full coverage of all tests, automatically executed and instructions to test by hand
-    Awesome: An automated test suite hooked up to an external service such as Travis-CI or similar
+    Awesome: An automated test suite hooked up to an external service such as GitHub Actions or similar
     Awesome-ish (If we're in a really good mood): Documented manual steps that can be followed to objectively check the expected functionality of the software
 
 

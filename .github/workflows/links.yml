@@ -1,0 +1,25 @@
+name: Check links
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check README links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403/429: some institutional sites (MRST, PhreeQC, SGeMS) block bots.
+          args: >-
+            --no-progress
+            --accept 200..=299,403,429
+            --max-retries 3
+            README.md
+          fail: true
