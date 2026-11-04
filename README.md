@@ -39,7 +39,7 @@ Awesome software projects sub-categorized by focus.
 - [libecl](https://github.com/equinor/libecl) - ![Python](media/icon/python.png) Reading and writing Eclipse reservoir simulator files
 - [MRST](https://www.sintef.no/projectweb/mrst) - ![matlab](media/icon/matlab.png) Rapid prototyping and demonstration of new simulation methods in reservoir modelling and simulation
 - [DuMu<sup>x</sup>](https://dumux.org) - ![C++](media/icon/cplusplus.png) Simulator for flow and transport processes in porous media
-- [Fesapi](https://github.com/F2I-Consulting/fesapi) - ![C++](media/icon/cplusplus.png) ![C++](media/icon/java.png) ![C++](media/icon/csharp.png) Reading and writing [RESQML2](https://www.energistics.org/portfolio/resqml-data-standards/) files
+- [Fesapi](https://github.com/F2I-Consulting/fesapi) - ![C++](media/icon/cplusplus.png) ![C++](media/icon/java.png) ![C++](media/icon/csharp.png) Reading and writing [RESQML2](https://www.energistics.org/resqml-data-standards) files
 - [PyGRDECL](https://github.com/BinWang0213/PyGRDECL) - ![Python](media/icon/python.png) ![Paraview](media/icon/paraview.png) Visualize Eclipse/Petrel outputs Grid File (GRDECL) using Paraview(VTK)
 - [TPFA-ResSim](https://github.com/patnr/TPFA-ResSim) - ![Python](media/icon/python.png) ![Matlab](media/icon/matlab.png) Toy, 2D black-oil petroleum reservoir simulator
 ### History Matching and Uncertainty Analysis
@@ -50,7 +50,6 @@ Awesome software projects sub-categorized by focus.
 - [lasio](https://github.com/kinverarity1/lasio/) - ![Python](media/icon/python.png) Reading and writing well data using Log ASCII Standard (LAS) files
 - [Welly](https://github.com/agile-geoscience/welly) - ![Python](media/icon/python.png) Analyzing and processing well log data
 - [Striplog](https://github.com/agile-geoscience/striplog) - ![Python](media/icon/python.png) Display lithological and stratigraphic logs for wells and outcrop
-- [FuzzyLAS](http://fuzzylas.appspot.com/) - Web app for looking up curve mnemonics
 - [dlisio](https://github.com/equinor/dlisio) - ![Equinor](media/icon/equinor.png) ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) dlisio is an LGPL licensed library for working with well logs in Digital Log Interchange Standard (DLIS V1) 
 - [porespy](https://github.com/PMEAL/porespy) - ![Python](media/icon/python.png) A set of tools for characterizing and analying 3D images of porous materials
 - [porepy](https://github.com/pmgbergen/porepy) - ![Python](media/icon/python.png) Simulation Tool for Fractured and Deformable Porous Media
@@ -64,7 +63,6 @@ Awesome software projects sub-categorized by focus.
 - [PREOS](https://github.com/CorySimon/PREOS) - ![Python](media/icon/python.png) Computes the fugacity coefficient, compressibility, and density of a gas at a particular temperature and pressure using the Peng-Robinson EoS
 - [zFactor](https://github.com/f0nzie/zFactor) - ![R](media/icon/r.png) Calculates the error measures or deviation between different correlations for gas compressibility compared to the original Standing-Katz chart
 ### Rock-Fluid Interaction
-- [arxim](https://www.emse.fr/~moutte/arxim/) - ![Fortran](media/icon/fortran.png) Calculations of multiphase (fluid, mineral, gas) interactions
 - [PhreeQC](https://www.usgs.gov/software/phreeqc-version-3) - ![C++](media/icon/cplusplus.png) Reactions in water and between water and rocks and sediments (speciation, batch-reaction, one-dimensional transport, and inverse geochemical calculations)
 - [Reaktoro](https://reaktoro.org/) - ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) Unified framework for modelling chemically reactive systems
 - [GeoPyTool](https://github.com/GeoPyTool/GeoPyTool) - ![Python](media/icon/python.png) Application with geochemical plotting capabilities
@@ -92,11 +90,11 @@ Awesome software projects sub-categorized by focus.
 | --- |
 
 ## Data Repositories
-- [ANP](http://www.anp.gov.br/dados-abertos-anp) - Brazil's national oil agency open data repository.
+- [ANP](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos) - Brazil's national oil agency open data repository.
 - [Volve Dataset](https://www.equinor.com/en/how-and-why/digitalisation-in-our-dna/volve-field-data-village-download.html) - Volve field data set download
 - [Unisim](https://www.unisim.cepetro.unicamp.br/benchmarks/br/) - CMG and Eclipse reservoir simulation datasets. 
-- [Athabasca Oil Sands Well Dataset McMurray/Wabiskaw](https://ags.aer.ca/publications/SPE_006.html) - Well logs and stratigraphic picks for 2193 wells, including 750 with lithofacies, from Alberta, Canada
-- [Digital Rocks Portal](https://www.digitalrocksportal.org/) - Data portal for fast storage and retrieval, sharing, organization and analysis of images of varied porous micro-structures
+- [Athabasca Oil Sands Well Dataset McMurray/Wabiskaw](https://ags.aer.ca/publication/spe-006) - Well logs and stratigraphic picks for 2193 wells, including 750 with lithofacies, from Alberta, Canada
+- [Digital Porous Media Portal](https://digitalporousmedia.org/) - Data portal (formerly Digital Rocks Portal) for fast storage and retrieval, sharing, organization and analysis of images of varied porous micro-structures
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
@@ -119,7 +117,6 @@ Awesome software projects sub-categorized by focus.
 
 - [Software Underground Slack](https://softwareunderground.org/) - ![slack](media/icon/slack.png) Community connecting geo\computing researchers
 - [gio](https://github.com/agile-geoscience/gio) - ![Python](media/icon/python.png) Geoscience file input and output functions for less-than standard data formats
-- [Comparison of free geophysics software](https://en.wikipedia.org/wiki/Comparison_of_free_geophysics_software) - List of geophysics software on Wikipedia
 
 | ▲ [Top](#awesome-reservoir-engineering) |
 | --- |
