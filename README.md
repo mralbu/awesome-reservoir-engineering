@@ -50,7 +50,7 @@ Awesome software projects sub-categorized by focus.
 - [GEOS](https://github.com/GEOS-DEV/GEOS) - ![C++](media/icon/cplusplus.png) Multiphysics simulation framework for subsurface flow, geomechanics and CO2 storage
 - [ResInsight](https://github.com/OPM/ResInsight) - ![C++](media/icon/cplusplus.png) 3D viewer and post-processing of reservoir models and simulation results
 - [MOOSE](https://github.com/idaholab/moose) - ![C++](media/icon/cplusplus.png) Multiphysics finite-element framework whose porous flow module covers multiphase, thermal and geomechanical reservoir problems
-- [PFLOTRAN](https://www.pflotran.org/) - Massively parallel Fortran simulator for subsurface flow and reactive transport
+- [PFLOTRAN](https://www.pflotran.org/) - ![Fortran](media/icon/fortran.png) Massively parallel simulator for subsurface flow and reactive transport
 - [GeoChemFoam](https://github.com/GeoChemFoam/GeoChemFoam) - ![C++](media/icon/cplusplus.png) OpenFOAM-based pore-scale simulator for multiphase reactive flow and transport
 - [dfnWorks](https://github.com/lanl/dfnWorks) - ![C++](media/icon/cplusplus.png) ![Python](media/icon/python.png) Generation of three-dimensional discrete fracture networks and simulation of flow and transport through them
 ### History Matching and Uncertainty Analysis
@@ -115,7 +115,7 @@ Awesome software projects sub-categorized by focus.
 - [pyopmnearwell](https://github.com/cssr-tools/pyopmnearwell) - ![Python](media/icon/python.png) Near-well dynamics simulation using OPM Flow
 - [expreccs](https://github.com/cssr-tools/expreccs) - ![Python](media/icon/python.png) Coupled regional and site reservoir simulation for CO2 storage using OPM Flow
 - [Fimbul.jl](https://github.com/sintefmath/Fimbul.jl) - ![Julia](media/icon/julia.png) Geothermal reservoir and thermal energy storage simulation built on JutulDarcy.jl
-- [Waiwera](https://github.com/waiwera/waiwera) - Parallel open-source geothermal flow simulator written in Fortran
+- [Waiwera](https://github.com/waiwera/waiwera) - ![Fortran](media/icon/fortran.png) Parallel open-source geothermal flow simulator
 - [GEOPHIRES-X](https://github.com/NatLabRockies/GEOPHIRES-X) - ![Python](media/icon/python.png) NREL's geothermal techno-economic simulator
 ### Machine Learning and Surrogate Models
 - [U-FNO](https://github.com/gegewen/ufno) - ![Python](media/icon/python.png) Enhanced Fourier neural operator for fast multiphase flow prediction in CO2 storage
