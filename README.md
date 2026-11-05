@@ -56,6 +56,7 @@ Awesome software projects sub-categorized by focus.
 ### History Matching and Uncertainty Analysis
 - [ert](https://github.com/equinor/ert) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Tool for history matching and updating using Ensemble Kalman Filters and Ensemble Smoothers, with Everest for ensemble-based well planning and production optimization (`pip install ert[everest]`)
 - [iterative_ensemble_smoother](https://github.com/equinor/iterative_ensemble_smoother) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Standalone ES-MDA and subspace iterative ensemble smoother (SIES) algorithms for data assimilation
+- [DAPPER](https://github.com/nansencenter/DAPPER) - ![Python](media/icon/python.png) Benchmarking of data assimilation methods such as EnKF variants, iterative ensemble smoothers and particle filters
 - [pyhum](https://github.com/juliohm/HUM) - ![Python](media/icon/python.png) Probabilistic Framework for Reservoir Characterization and Real Time Updating
 ### Petrophysics
 - [pyscal](https://github.com/equinor/pyscal) - ![Equinor](media/icon/equinor.png) ![Python](media/icon/python.png) Python module for relative permeability/SCAL support in reservoir simulation
@@ -151,6 +152,7 @@ Awesome software projects sub-categorized by focus.
 - [Geophysics Cheat Sheet](https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d70e4b0d158ed9603f5/1350658645407/Cheatsheet_geophysics.pdf) - Cheat Sheet for Geophysics
 - [Rock Physics Cheat Sheet](https://static.squarespace.com/static/549dcda5e4b0a47d0ae1db1e/54a06d6ee4b0d158ed95f696/54a06d6fe4b0d158ed960042/1374593568367/Cheatsheet_Rock_Physics.pdf) -  Cheat Sheet for Rock Physics
 - [History Matching tutorial](https://github.com/patnr/HistoryMatching) - ![Python](media/icon/python.png) Interactive Jupyter tutorial on ensemble history matching; runs in the cloud with no installation
+- [DA-tutorials](https://github.com/nansencenter/DA-tutorials) - ![Python](media/icon/python.png) Jupyter tutorials on data assimilation and the Ensemble Kalman Filter
 - [Python Numerical Demos](https://github.com/GeostatsGuy/PythonNumericalDemos) - ![Python](media/icon/python.png) Well-documented Python demonstrations for spatial data analytics, geostatistics and machine learning
 - [Data Science Interactive Python](https://github.com/GeostatsGuy/DataScienceInteractivePython) - ![Python](media/icon/python.png) Interactive Python dashboards for learning data science and geostatistics
 
